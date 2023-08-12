@@ -59,6 +59,13 @@ Replace winecfg with the Directory and Application name,
 Example: gl box86 wine '/home/LinuxForLife82/Downloads/Undertale/Undertale.exe'
 only put winecfg if its Dam.OS's First time Setup to change the 'Windows 7' to 'Windows 10' in order to Max out your Compatability. Before you Do the winecfg setup Run: "box64 wine64 winebuild" to setup Wine to be Able to use it.
 
+# Termux-X11
+Dam.OS Relies on Termux-X11 because it is Faster and takes less Processing Power. And you are able to Download Termux 118 and Termux-X11 Here: "https://github/SMGXSCRIPTS/Dam.OS/blob/main/termux"
+You need to Allow Installing apk's from an Unknown Source
+
+# Down Sides to Termux
+Because Dam.OS is Emulated with Proot. It cannot use Applications that Relie upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d
+
 # Misc
 For those of you who are wondering
 Dam.OS stands for "Damian Operating System"
