@@ -1,0 +1,112 @@
+#!/data/data/com.termux/files/usr/bin/bash
+#THIS PROGRAM SCRIPT IS PROPERTY OF DAM.OS
+R="$(printf '\033[1;31m')"
+G="$(printf '\033[1;32m')"
+Y="$(printf '\033[1;33m')"
+W="$(printf '\033[1;37m')"
+C="$(printf '\033[1;36m')"
+
+function bannersal (){
+printf ${R}'####################################################################\n'
+printf ${R}'##                                                                ##\n'
+printf ${R}'##  8888888b.                              .d88888b.   .d8888b.   ##\n'
+printf ${R}'##  888  "Y88b                            d88P" "Y88b d88P  Y88b  ##\n'
+printf ${R}'##  888    888                            888     888 Y88b.       ##\n'
+printf ${R}'##  888    888  8888b.  88888b.d88b.      888     888  "Y888b.    ##\n'
+printf ${R}'##  888    888     "88b 888 "888 "88b     888     888     "Y88b.  ##\n'
+printf ${R}'##  888    888 .d888888 888  888  888     888     888       "888  ##\n'
+printf ${R}'##  888  .d88P 888  888 888  888  888 d8b Y88b. .d88P Y88b  d88P  ##\n'
+printf ${R}'##  8888888P"  "Y888888 888  888  888 Y8P  "Y88888P"   "Y8888P"   ##\n'
+printf ${R}'##                                                                ##\n'
+printf ${R}'####################################################################\n'
+printf ${R}'______________________/SALARY-CALCULATER\___________/Damian_Wuorio\_\n'${W}
+}
+
+function START (){
+clear
+bannersal
+echo
+read -p "Ready To Begin [Y/N]: " yn2
+case $yn2 in
+    [yY] ) sleep 0.3 ; for i in {1..10}; do START_LOAD; done ; clear; MATH;;
+    [nN] ) sleep 0.5 ; clear;;
+    * ) echo ${R}"Invalid Response!" ; sleep 1 ; clear;;
+esac
+}
+
+function START_LOAD (){
+clear
+bannersal
+echo
+echo ${C}"Loading... / "
+sleep 0.1
+clear
+bannersal
+echo
+echo ${C}"Loading... \ "
+sleep 0.1
+clear
+bannersal
+echo
+echo ${C}"Loading... - "
+sleep 0.1
+}
+
+function VALUES (){
+clear
+bannersal
+echo
+echo ${Y}"Calculating..."${W}
+sleep 1.5
+DAYS=$(expr $MONEY_HOURLY \* $HOURS_WORKING \* $DAYS_WORKING \* 2)
+DAMN=$(expr $MONEY_HOURLY \* $HOURS_WORKING \* $DAYS_WORKING \* 2 \* 12)
+MONEY=$(expr $MONEY_HOURLY \* $HOURS_WORKING)
+clear
+bannersal
+RESULTS
+}
+
+function MATH (){
+bannersal
+echo
+echo ${R}"ONLY INPUT NUMBERS AND NOT ANY SYMBOLS"${W}
+echo
+sleep 1.2
+read -p "What Will Be Your Days Working A Week: " DAYS_WORKING
+echo
+sleep 0.4
+read -p "How Many Hours Will You Be Working: " HOURS_WORKING
+echo
+sleep 0.4
+read -p "What Will You Make An Hour: " MONEY_HOURLY
+sleep 1.6
+VALUES
+}
+
+function RESULTS (){
+clear
+bannersal
+echo
+echo ${C}"Results..."
+sleep 1.8
+echo
+echo ${G}"Money a Day ${MONEY}"
+echo
+sleep 0.4
+echo ${G}"Money a Paycheck ${DAYS}"
+echo
+sleep 0.4
+echo ${G}"Money Per Year a.k.a your Salary ${DAMN}"
+echo
+sleep 0.2
+read -p ${R}"Click Return to exit" no
+clear
+unset DAYS_WORKING
+unset HOURS_WORKING
+unset MONEY_HOURLY
+unset DAMN
+unset MONEY
+unset DAYS
+}
+
+START
