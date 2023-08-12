@@ -5,7 +5,7 @@ A Service Package for Arch Linux
 Dam.OS is meant to help normal users to understand the Linux CLI A.K.A the Terminal Emulator or the actual Terminal. Another purpose of Dam.OS is to use Box64 and Wine natively on ARM SBC's (Single Board Computer) or on a Phone with the Termux Application.
 
 # Reason
-The Reason I Based Dam.OS off of Arch Linux is because Arch has very low Memory Usage meaning it is Very Stable in Performance and Useability. And its Open Source Giving the User the Ability to Change the OS's code to their liking or make their own Drivers.
+The Reason I Based Dam.OS off of Arch Linux is because Arch has very low Memory Usage meaning it is Very Stable in Performance and Usability. And its Open Source Giving the User the Ability to Change the OS's code to their liking or make their own Drivers.
 
 # Explanation
 Dam.OS Uses Box64 and Wine but what are those Exactly? Well
