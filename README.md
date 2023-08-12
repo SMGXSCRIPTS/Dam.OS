@@ -65,7 +65,7 @@ And Termux_118.0 Here "https://f-droid.org/en/packages/com.termux/"
 You need to Allow Installing apk's from an Unknown Source
 
 # Down Sides to Termux
-Because Dam.OS is Emulated with Proot. It cannot use Applications that Relie upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d
+Because Dam.OS is Emulated with Proot. It cannot use Applications that Relie upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d and for Some Reason the Package sox Does not Work So use play-audio which is Preinstalled Instead.
 
 # Misc
 For those of you who are wondering
