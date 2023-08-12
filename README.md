@@ -49,7 +49,7 @@ The Dam.OS RCM Mode can be Found in The Termux Installer. The Dam.OS RCM is a ni
 
 - Give Dam.OS more Default Wallpapers
 
-- Give Dam.OS Better Support Games and Basic Applications such as Linux or MS-DOS (Windows)
+- Give Dam.OS Better Support for Games and Basic Applications such as Linux or MS-DOS (Windows)
 
 - Improve Dam.OS Based on your Guy's feedback
 
