@@ -1,4 +1,4 @@
-# Dam.OS Descriptsion
+# Dam.OS
 A Service Package for Arch Linux
 
 # Purpose
