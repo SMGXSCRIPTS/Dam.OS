@@ -65,6 +65,8 @@ And if it works you will be Prompted with this.
 
 - Give Dam.OS Better Support for Games and Basic Applications such as Linux or MS-DOS (Windows)
 
+- Implement The Dam.OS Voice Module into Arch
+
 - Improve Dam.OS Based on your Guy's feedback
 
 # Box64 and Wine Use Case
