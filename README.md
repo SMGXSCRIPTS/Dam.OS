@@ -11,12 +11,12 @@ none (just kidding)
 
 
 # Install/Setup
-Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute "wget https://github.com/SMGXSCRIPTS/Dam.OS/install/"
+Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute "wget https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/install/DAM.OS"
 
 
 # Dam.OS ASCII Banners
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-44-09-838.jpg)
-
+![alt text](
 
 # Plans For Dam.OS
 - Currently to get Dam.OS up
