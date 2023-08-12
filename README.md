@@ -15,8 +15,10 @@ Dam.OS is currently only avaliable for the Termux Application On Android Devices
 
 
 # Dam.OS ASCII Banners
+Normal:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-44-09-838.jpg)
-![alt text](
+Recovery Mode:
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
 
 # Plans For Dam.OS
 - Currently to get Dam.OS up
