@@ -19,10 +19,10 @@ Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 # Install/Setup
 Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute
 
-"wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR-DIS_TERMUX.sh"
+"wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR-DIS_TERMUX.sh ; bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh"
 For the Proot-Distro Version -- Recommended
 
-"wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh"
+"wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh ; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh"
 For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely to crash on Bad Hardware, but it binds itself to your Android System. So be careful if your Rooted, Also Proot-Distro will bind itself too unless you use the "--isolated" command)
 
 # Dam.OS ASCII Banners
@@ -39,6 +39,20 @@ The Dam.OS Wallpaper has to be set manually so get into the DE's (Desktop Enviro
 
 # Dam.OS Recovery Mode (RCM)
 The Dam.OS RCM Mode can be Found in The Termux Installer. The Dam.OS RCM is a nifty Tool that Allows a User to Alter Certain parts of The System and it acts like a Failsafe because it Does not Boot the Dam.OS System. Allowing a User to fix Their System if they Accidently Bricked it.
+
+To Access RCM Mode use OVERRIDE_DAMOS_RCM=1 on the Installer's
+
+Example: OVERRIDE_DAMOS_RCM=1 bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/1.jpg)
+
+Type RCM instead of Y or N.
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/2.jpg)
+
+It will start Checking The Dam.OS Bootloader.
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/3.jpg)
+
+And if it works you will be Prompted with this.
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/4.jpg)
 
 # Plans For Dam.OS
 - Currently to get Dam.OS up and Running on Smoothly Bad Hardware
