@@ -12,7 +12,7 @@ Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 
 - Box64 and Box86 are Made by ptitSeb here on Github. Box64 is a Translation For Architecture Instruction sets. For Example: Box64 will Translate x64 Instructions to ARM64 or Aarch64 Instructions because your Phones CPU Does not Understand the Language of your average Laptop or Desktop which has an x64 CPU most of the time. Box86 is essentialy the same as Box64 but with x86 to ARM Translation.
 
-- Wine is made by a team of Linux Lovers and their Website is "https://www.winehq.org/". Wine is not an Emulator, It is a Compatibility layer That Recreates a Windows Environment File System for .exe .msi .dll files or other Windows Programs. Wine Does all of this without losing any Performance. Dam.OS adds DXVK 2.0 and other Software to Wine to help it Game better.
+- Wine is made by a team of Linux Lovers and their Website is "https://www.winehq.org/". Wine is not an Emulator, It is a Compatibility layer That Recreates a Windows Environment File System for .exe .msi .dll files or other Windows Programs. Wine Does all of this without losing any Performance. Dam.OS adds DXVK 2.0 and other Software's to Wine to help it Game Better.
 
 - gl is the Alias for the virglrenderer-android Package. Virgl is the Software Dam.OS and Many other QEMU (Quick Emulation) Systems use to get 3D GPU acceleration. How it Works: Virgl gets instructions from The Dam.OS System on how to Build a Frame and the Logic Data behind it and uses your Phones actual GPU and GPU Drivers, You are Garenteed fast openGL Performance also since Dam.OS is Binded to Termux's /tmp partion, Virgl can simply send the Frames over it like a Bus and then Dam.OS puts those Frames in order in a Window on the Window Manager.
 
