@@ -38,7 +38,7 @@ The Dam.OS Default Wallpaper Is Beautiful isn't It
 The Dam.OS Wallpaper has to be set manually so get into the DE's (Desktop Environment) Wallpaper Picker and navigate to "/etc/damos/wallpapers" and the File Name is DAM.OS-WALLPAPER.jpg
 
 # Dam.OS Recovery Mode (RCM)
-The Dam.OS RCM Mode can be Found in The Termux Installer. The Dam.OS RCM is a nifty Tool that Allows a User to Alter Certain parts of The System
+The Dam.OS RCM Mode can be Found in The Termux Installer. The Dam.OS RCM is a nifty Tool that Allows a User to Alter Certain parts of The System and it acts like a Falesafe because it Does not Boot the Dam.OS System. Allowing a User to fix Their System if they Accidently Bricked it.
 
 # Plans For Dam.OS
 - Currently to get Dam.OS up and Running on Smoothly Bad Hardware
