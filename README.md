@@ -7,6 +7,19 @@ Dam.OS is meant to help normal users to understand the Linux CLI A.K.A the Termi
 
 
 # Reason For Existing
+none (just kidding)
+
+
+# Install/Setup
+Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute "wget https://github.com/SMGXSCRIPTS/Dam.OS/install/"
+
+
+# Dam.OS ASCII Banners
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/
+
+
+# Plans For Dam.OS
+- Currently to get Dam.OS up
 
 
 # Release Date
