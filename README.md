@@ -76,6 +76,8 @@ And if it works you will be Prompted with this.
 
 - Implement Wi-Fi Passthrough to Dam.OS in Termux
 
+- Implement Microphone Passthrough to Dam.OS in Termux
+
 - Emulate systemd and init.d with Special Software
 
 - Improve Dam.OS Based on your Guy's feedback
