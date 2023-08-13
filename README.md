@@ -32,9 +32,13 @@ Normal:
 Recovery Mode:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
 
-# Dam.OS Default Wallpaper
-The Dam.OS Default Wallpaper Is Beautiful isn't It
+# Dam.OS Default Wallpapers
+The Dam.OS Default Wallpapers Is Beautiful isn't It
+The Future Of ARM:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-WALLPAPER.jpg)
+
+Preservation:
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/DAM.OS-WALLPAPER-6.jpg)
 
 The Dam.OS Wallpaper has to be set manually so get into the DE's (Desktop Environment) Wallpaper Picker and navigate to "/etc/damos/wallpapers" and the File Name is DAM.OS-WALLPAPER.jpg
 
