@@ -72,6 +72,12 @@ And if it works you will be Prompted with this.
 
 - Implement The Dam.OS Voice Module into Arch
 
+- Implement Bluetooth Passthrough to Dam.OS in Termux
+
+- Implement Wi-Fi Passthrough to Dam.OS in Termux
+
+- Emulate systemd and init.d with Special Software
+
 - Improve Dam.OS Based on your Guy's feedback
 
 # Box64 and Wine Use Case
