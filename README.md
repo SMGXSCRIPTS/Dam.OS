@@ -38,14 +38,14 @@ The Future Of ARM:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-WALLPAPER.jpg)
 
 Preservation:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/DAM.OS-WALLPAPER-6.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-WALLPAPER-6.jpg)
 
 The Dam.OS Wallpaper has to be set manually so get into the DE's (Desktop Environment) Wallpaper Picker and navigate to "/etc/damos/wallpapers" and the File Name is DAM.OS-WALLPAPER.jpg
 
 # Dam.OS Recovery Mode (RCM)
 The Dam.OS RCM Mode can be Found in The Termux Installer. The Dam.OS RCM is a nifty Tool that Allows a User to Alter Certain parts of The System and it acts like a Failsafe because it Does not Boot the Dam.OS System. Allowing a User to fix Their System if they Accidently Bricked it.
 
-To Access RCM Mode use OVERRIDE_DAMOS_RCM=1 on the Installer's
+To Access RCM Mode use OVERRIDE_DAMOS_RCM=1 on both of the  Installers
 
 Example: OVERRIDE_DAMOS_RCM=1 bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/1.jpg)
