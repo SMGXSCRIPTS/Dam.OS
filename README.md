@@ -94,12 +94,17 @@ And Termux_118.0 Here "https://f-droid.org/en/packages/com.termux/"
 You need to Allow Installing apk's from an Unknown Source
 
 # Down Sides to Termux
-Because Dam.OS is Emulated with Proot. It cannot use Applications that Relie upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d and for Some Reason the Package sox Does not Work So use play-audio which is Preinstalled Instead.
+Because Dam.OS is Emulated with Proot. It cannot use Applications that Relie upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d and for Some Reason the Package sox Does not Work So use "play-audio" which is Preinstalled Instead.
 
 # Misc
 For those of you who are wondering
 Dam.OS stands for "Damian Operating System"
 And it is based off of my name "Damian Wuorio"
+
+# Fun Facts
+- I began Developing Dam.OS on 3/6/2021.
+
+- Did you know That your Smarter than a Computer Thinking wise. Because The average Human has 92 Billion brain cells while an average Computer has 7.2 Billion Micro Transisters, Although you will beat a Computer Knowledge wise.
 
 # Release Date
 Dam.OS is Planned to be Released in 3/4/2025
