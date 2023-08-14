@@ -107,4 +107,4 @@ And it is based off of my name "Damian Wuorio"
 - Did you know That your Smarter than a Computer Thinking wise. Because The average Human has 92 Billion brain cells while an average Computer has 7.2 Billion Micro Transisters, Although you won't beat a Computer Knowledge wise.
 
 # Release Date
-Dam.OS is Planned to be Released in 3/4/2025
+The Dam.OS ISO file for SBC's is Planned to be Released in 3/4/2025
