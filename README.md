@@ -33,7 +33,8 @@ Recovery Mode:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
 
 # Dam.OS Default Wallpapers
-The Dam.OS Default Wallpapers Is Beautiful isn't It
+The Dam.OS Default Wallpapers Is Beautiful isn't It.
+
 The Future Of ARM:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-WALLPAPER.jpg)
 
@@ -103,6 +104,8 @@ And it is based off of my name "Damian Wuorio"
 
 # Fun Facts
 - I began Developing Dam.OS on 3/6/2021.
+
+- Dam.OS Originally stood for (Dynamic Advanced Machine Operating System) Before it was Changed to (Damian Operating System) in 6/6/2022
 
 - Did you know That your Smarter than a Computer Thinking wise. Because The average Human has 92 Billion brain cells while an average Computer has 7.2 Billion Micro Transisters, Although you won't beat a Computer Knowledge wise.
 
