@@ -47,9 +47,11 @@ CLi:
 Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute
 
 "wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR-DIS_TERMUX.sh ; bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh"
+
 For the Proot-Distro Version -- Recommended
 
 "wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh ; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh"
+
 For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely to crash on Bad Hardware, but it binds itself to your Android System. So be careful if your Rooted, Also Proot-Distro will bind itself too unless you use the "--isolated" command)
 
 # Dam.OS ASCII Banners
