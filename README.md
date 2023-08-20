@@ -21,10 +21,27 @@ Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 Dam.OS has 4 Different GUI's (Graphical Interface) including just Cli.
 
 KDE Plasma:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-KDE.jpg
+
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-KDE.jpg)
 
 LXDE:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-LXDE.jpg
+
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-LXDE.jpg)
+
+LXQT:
+
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-LXQT.jpg)
+
+Xfce 4:
+
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-XFCE4.jpg)
+
+MATE:
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-MATE.jpg)
+
+CLi:
+
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-CLI_ONLY.jpg)
 
 # Install/Setup
 Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute
