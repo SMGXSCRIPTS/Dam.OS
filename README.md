@@ -15,7 +15,16 @@ Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 
 - Wine is made by a team of Linux Lovers and their Website is "https://www.winehq.org/". Wine is not an Emulator, It is a Compatibility layer That Recreates a Windows Environment File System for .exe .msi .dll files or other Windows Programs. Wine Does all of this without losing any Performance. Dam.OS adds DXVK 2.0 and other Software's to Wine to help it Game Better.
 
-- gl is the Alias for the virglrenderer-android Package. Virgl is the Software Dam.OS and Many other QEMU (Quick Emulation) Systems use to get 3D GPU acceleration. How it Works: Virgl gets instructions from The Dam.OS System on how to Build a Frame and the Logic Data behind it and uses your Phones actual GPU and GPU Drivers, You are Garenteed fast openGL Performance also since Dam.OS is Binded to Termux's /tmp partion, Virgl can simply send the Frames over it like a Bus and then Dam.OS puts those Frames in order in a Window on the Window Manager.
+- gl is the Alias for the virglrenderer-android Package. Virgl is the Software Dam.OS and Many other QEMU (Quick Emulation) Systems use to get 3D GPU acceleration. How it Works: Virgl gets instructions from The Dam.OS System on how to Build a Frame and the Logic Data behind it and uses your Phones actual GPU and GPU Drivers, You are Garenteed fast OpenGL Performance also since Dam.OS is Binded to Termux's /tmp partion, Virgl can simply send the Frames over it like a Bus and then Dam.OS puts those Frames in order in a Window on the Window Manager.
+
+# Dam.OS Graphical Interface
+Dam.OS has 4 Different GUI's (Graphical Interface) including just Cli.
+
+KDE Plasma:
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-KDE.jpg
+
+LXDE:
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-LXDE.jpg
 
 # Install/Setup
 Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute
