@@ -18,7 +18,7 @@ Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 - gl is the Alias for the virglrenderer-android Package. Virgl is the Software Dam.OS and Many other QEMU (Quick Emulation) Systems use to get 3D GPU acceleration. How it Works: Virgl gets instructions from The Dam.OS System on how to Build a Frame and the Logic Data behind it and uses your Phones actual GPU and GPU Drivers, You are Garenteed fast OpenGL Performance also since Dam.OS is Binded to Termux's /tmp partion, Virgl can simply send the Frames over it like a Bus and then Dam.OS puts those Frames in order in a Window on the Window Manager.
 
 # Dam.OS Graphical Interface
-Dam.OS has 4 Different GUI's (Graphical Interface) including just Cli.
+Dam.OS has 5 Different GUI's (Graphical Interface) including just Cli.
 
 KDE Plasma:
 
