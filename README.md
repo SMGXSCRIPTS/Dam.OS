@@ -90,6 +90,10 @@ It will start Checking The Dam.OS System Loader.
 And if it works you will be Prompted with this.
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/4.jpg)
 
+Dam.OS RCM Has its Own Command Line!
+
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-RCM_CLI.jpg)
+
 # Plans For Dam.OS
 - Currently to get Dam.OS up and Running on Smoothly Bad Hardware
 
