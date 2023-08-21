@@ -8,7 +8,7 @@ Dam.OS is meant to help normal users to understand the Linux CLI A.K.A the Termi
 # Reason
 The Reason I Based Dam.OS off of Arch Linux is because Arch has very low Memory Usage meaning it is Very Stable in Performance and Usability. And its Open Source Giving the User the Ability to Change the OS's code to their liking or make their own Drivers.
 
-# Explanation
+# Explaination
 Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 
 - Box64 and Box86 are Made by ptitSeb here on Github. Box64 is a Translation For Architecture Instruction sets. For Example: Box64 will Translate x64 Instructions to ARM64 or Aarch64 Instructions because your Phones CPU Does not Understand the Language of your average Laptop or Desktop which has an x64 CPU most of the time. Box86 is essentialy the same as Box64 but with x86 to ARM Translation.
