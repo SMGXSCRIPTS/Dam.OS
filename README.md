@@ -139,7 +139,9 @@ And it is based off of my name "Damian Wuorio"
 # Fun Facts
 - I began Developing Dam.OS on 3/6/2021.
 
-- Dam.OS Originally stood for (Dynamic Advanced Machine Operating System) Before it was Changed to (Damian Operating System) in 6/6/2022
+- Dam.OS Originally stood for (Dynamic Advanced Machine Operating System) Before it was Changed to (Damian Operating System) in 6/8/2022
+
+- Dam.OS Update 0.6 Was Called "OperationCheezy"
 
 - Did you know That your Smarter than a Computer Thinking wise. Because The average Human has 92 Billion brain cells while an average Computer has 7.2 Billion Micro Transisters, Although you won't beat a Computer Knowledge wise.
 
