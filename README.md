@@ -54,7 +54,7 @@ For the Proot-Distro Version -- Recommended
 "wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh ; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh"
 
 
-For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely to crash on Bad Hardware, but it binds itself to your Android System. So be careful if your Rooted, Also Proot-Distro will bind itself too unless you use the "--isolated" command)
+For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely to crash on Bad Hardware, but it binds itself to your Android System. So be careful if your Rooted, Also Proot-Distro will bind itself too unless you use the "--standalone, -s" Arguement in the Launch Command)
 
 # Dam.OS ASCII Banners
 Normal:
@@ -94,8 +94,10 @@ Dam.OS RCM Has its Own Command Line!
 
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-RCM_CLI.jpg)
 
+Dam.OS RCM Runs In a Container So That The User does not Mess With There Internal Android System! (P.S This Only Applies to Dam.OS 2.06 BlackDiamond)
+
 # Plans For Dam.OS
-- Currently to get Dam.OS up and Running on Smoothly Bad Hardware
+- Currently to get Dam.OS up and Running Smoothly on Bad Hardware
 
 - Make a Package Manager For Dam.OS
 
@@ -142,6 +144,8 @@ And it is based off of my name "Damian Wuorio"
 - Dam.OS Originally stood for (Dynamic Advanced Machine Operating System) Before it was Changed to (Damian Operating System) in 6/8/2022
 
 - Dam.OS Update 0.6 Was Called "OperationCheezy"
+
+- Dam.OS Update 1.22 Was Called "Shovel"
 
 - Did you know That your Smarter than a Computer Thinking wise. Because The average Human has 92 Billion brain cells while an average Computer has 7.2 Billion Micro Transisters, Although you won't beat a Computer Knowledge wise.
 
