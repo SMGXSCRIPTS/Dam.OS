@@ -47,7 +47,7 @@ wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR-DI
 
 For the Proot-Distro Version -- Recommended
 ```
-wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh
+wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR_TERMUX.sh; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh
 ```
 
 For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely to crash on Bad Hardware, but it binds itself to your Android System. So be careful if your Rooted, Also Proot-Distro will bind itself too unless you use the "--standalone, -s" Arguement in the Launch Command)
@@ -62,7 +62,7 @@ Recovery Mode:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
 
 # Dam.OS Default Wallpapers
-The Dam.OS Default Wallpapers Is Beautiful isn't It.
+The Dam.OS Default Wallpapers Is Beautiful Arent They.
 
 The Future Of ARM:
 
@@ -79,8 +79,10 @@ The Dam.OS RCM Mode can be Found in The Termux Installer. The Dam.OS RCM is a ni
 
 To Access RCM Mode use OVERRIDE_DAMOS_RCM=1 on both of the  Installers
 
-Example: OVERRIDE_DAMOS_RCM=1 bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
-
+Example:
+```
+OVERRIDE_DAMOS_RCM=1 bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
+```
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/1.jpg)
 
 Type RCM instead of Y or N.
