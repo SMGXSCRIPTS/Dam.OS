@@ -130,6 +130,7 @@ Dam.OS RCM Runs In a Container So That The User does not Mess With Their Interna
 
 # Box64 and Wine Use Case
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/GL_SHOWCASE.jpg)
+
 Replace winecfg with the Directory and Application name,
 Example: gl box86 wine '/home/LinuxForLife82/Downloads/Undertale/Undertale.exe'
 only put winecfg if its Dam.OS's First time Setup to change the 'Windows 7' to 'Windows 10' in order to Max out your Compatability. Before you Do the winecfg setup Run: "box64 wine64 winebuild" to setup Wine to be Able to use it.
