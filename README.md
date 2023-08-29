@@ -58,8 +58,10 @@ For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely 
 
 # Dam.OS ASCII Banners
 Normal:
+
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-44-09-838.jpg)
 Recovery Mode:
+
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
 
 # Dam.OS Default Wallpapers
