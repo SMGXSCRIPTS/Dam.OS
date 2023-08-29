@@ -36,6 +36,7 @@ MATE:
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-MATE.jpg)
 
 CLi:
+
 ![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-CLI_ONLY.jpg)
 
 # Install/Setup
