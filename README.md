@@ -45,14 +45,14 @@ CLi:
 
 # Install/Setup
 Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute
-
-"wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR-DIS_TERMUX.sh ; bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh"
-
+```
+wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR-DIS_TERMUX.sh; bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
+```
 
 For the Proot-Distro Version -- Recommended
-
-"wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh ; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh"
-
+```
+wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh
+```
 
 For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely to crash on Bad Hardware, but it binds itself to your Android System. So be careful if your Rooted, Also Proot-Distro will bind itself too unless you use the "--standalone, -s" Arguement in the Launch Command)
 
@@ -131,7 +131,7 @@ And Termux_118.0 Here "https://f-droid.org/en/packages/com.termux/"
 You need to Allow Installing apk's from an Unknown Source
 
 # Down Sides to Termux
-Because Dam.OS is Emulated with Proot. It cannot use Applications that Relie upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d and for Some Reason the Package sox Does not Work So use "play-audio" which is Preinstalled Instead.
+Because Dam.OS is Emulated with Proot. It cannot use Applications that Rely upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d and for Some Reason the Package sox Does not Work So use "play-audio" which is Preinstalled Instead.
 
 # Misc
 For those of you who are wondering
