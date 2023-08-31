@@ -67,12 +67,12 @@ The Dam.OS Default Wallpapers Is Beautiful Arent They.
 The Future Of ARM:
 
 ![THE_FUTURE_OF_ARM](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER.jpg)
-Made For Samsung Dex Example: 1920x1080, 1920x1200
+Made For Samsung Dex Or Other Android Desktops. Example: 1920x1080, 1920x1200
 
 Preservation:
 
 ![PRESERVATION](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER-6.jpg)
-Made For Normal Phone Use Example: 2220x1080, 1440x720
+Made For Normal Phone Use. Example: 2220x1080, 1440x720
 
 The Dam.OS Wallpaper has to be set manually so get into the DE's (Desktop Environment) Wallpaper Picker and navigate to "/etc/damos/wallpapers" and the File Name is DAM.OS-WALLPAPER.jpg
 
