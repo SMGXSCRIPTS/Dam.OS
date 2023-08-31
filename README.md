@@ -21,19 +21,19 @@ Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 Dam.OS has 5 Different GUI's (Graphical Interface) including just Cli.
 
 KDE Plasma:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-KDE.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-KDE.jpg)
 
 LXDE:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-LXDE.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LXDE.jpg)
 
 LXQT:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-LXQT.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LXQT.jpg)
 
 Xfce 4:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-XFCE4.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-XFCE4.jpg)
 
 MATE:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-MATE.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-MATE.jpg)
 
 CLi:
 
@@ -55,22 +55,22 @@ For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely 
 # Dam.OS ASCII Banners
 Normal:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-44-09-838.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/Screenshot_2023-08-11-22-44-09-838.jpg)
 
 Recovery Mode:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
 
 # Dam.OS Default Wallpapers
 The Dam.OS Default Wallpapers Is Beautiful Arent They.
 
 The Future Of ARM:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-WALLPAPER.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER.jpg)
 
 Preservation:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-WALLPAPER-6.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER-6.jpg)
 
 The Dam.OS Wallpaper has to be set manually so get into the DE's (Desktop Environment) Wallpaper Picker and navigate to "/etc/damos/wallpapers" and the File Name is DAM.OS-WALLPAPER.jpg
 
@@ -83,23 +83,23 @@ Example:
 ```
 OVERRIDE_DAMOS_RCM=1 bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
 ```
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/1.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/1.jpg)
 
 Type RCM instead of Y or N.
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/2.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/2.jpg)
 
 It will start Checking The Dam.OS System Loader.
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/3.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/3.jpg)
 
 And if it works you will be Prompted with this.
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/4.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/4.jpg)
 
 Dam.OS RCM Has its Own Command Line!
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-RCM_CLI.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-RCM_CLI.jpg)
 
 Dam.OS RCM Runs In a Container So That The User does not Mess With Their Internal Android System! (P.S This Only Applies to Dam.OS 2.06 BlackDiamond)
 
@@ -127,7 +127,7 @@ Dam.OS RCM Runs In a Container So That The User does not Mess With Their Interna
 - Improve Dam.OS Based on your Guy's feedback
 
 # Box64 and Wine Use Case
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/random/GL_SHOWCASE.jpg)
+![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/GL_SHOWCASE.jpg)
 
 Replace winecfg with the Directory and Application name,
 Example: gl box86 wine '/home/LinuxForLife82/Downloads/Undertale/Undertale.exe'
