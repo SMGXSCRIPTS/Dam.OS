@@ -1,6 +1,6 @@
 # Dam.OS
 A Service Package for Arch Linux
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V2.png)
+![DAMOS_LOGO](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V2.png)
 
 # Purpose
 Dam.OS is meant to help normal users to understand the Linux CLI A.K.A the Terminal Emulator or the actual Terminal. Another purpose of Dam.OS is to use Box64 and Wine natively on ARM SBC's (Single Board Computer) or on a Phone with the Termux Application.
@@ -21,23 +21,23 @@ Dam.OS Uses Box64 and Wine but what are those Exactly? Well
 Dam.OS has 5 Different GUI's (Graphical Interface) including just Cli.
 
 KDE Plasma:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-KDE.jpg)
+![DAMOS_KDE_PLASMA](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-KDE.jpg)
 
 LXDE:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LXDE.jpg)
+![DAMOS_LXDE](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LXDE.jpg)
 
 LXQT:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LXQT.jpg)
+![DAMOS_LXQT](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LXQT.jpg)
 
 Xfce 4:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-XFCE4.jpg)
+![DAMOS_XFCE4](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-XFCE4.jpg)
 
 MATE:
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-MATE.jpg)
+![DAMOS_MATE](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-MATE.jpg)
 
 CLi:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/blob/main/lib/DAM.OS-CLI_ONLY.jpg)
+![DAMOS_CLI](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-CLI_ONLY.jpg)
 
 # Install/Setup
 Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute
@@ -55,22 +55,24 @@ For the Proot Version (P.S Proot is faster than Proot-Distro and is less likely 
 # Dam.OS ASCII Banners
 Normal:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/Screenshot_2023-08-11-22-44-09-838.jpg)
+![NORMAL_DAMOS](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/Screenshot_2023-08-11-22-44-09-838.jpg)
 
 Recovery Mode:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
+![RCM_DAMOS](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/Screenshot_2023-08-11-22-54-35-551.jpg)
 
 # Dam.OS Default Wallpapers
 The Dam.OS Default Wallpapers Is Beautiful Arent They.
 
 The Future Of ARM:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER.jpg)
+![THE_FUTURE_OF_ARM](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER.jpg)
+Made For Samsung Dex Example: 1920x1080, 1920x1200
 
 Preservation:
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER-6.jpg)
+![PRESERVATION](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-WALLPAPER-6.jpg)
+Made For Normal Phone Use Example: 2220x1080, 1440x720
 
 The Dam.OS Wallpaper has to be set manually so get into the DE's (Desktop Environment) Wallpaper Picker and navigate to "/etc/damos/wallpapers" and the File Name is DAM.OS-WALLPAPER.jpg
 
@@ -83,23 +85,23 @@ Example:
 ```
 OVERRIDE_DAMOS_RCM=1 bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
 ```
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/1.jpg)
+![RCM_EX_1](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/1.jpg)
 
 Type RCM instead of Y or N.
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/2.jpg)
+![RCM_EX_2](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/2.jpg)
 
 It will start Checking The Dam.OS System Loader.
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/3.jpg)
+![RCM_EX_3](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/3.jpg)
 
 And if it works you will be Prompted with this.
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/4.jpg)
+![RCM_EX_4](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/4.jpg)
 
 Dam.OS RCM Has its Own Command Line!
 
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-RCM_CLI.jpg)
+![RCM_CLI](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-RCM_CLI.jpg)
 
 Dam.OS RCM Runs In a Container So That The User does not Mess With Their Internal Android System! (P.S This Only Applies to Dam.OS 2.06 BlackDiamond)
 
@@ -127,7 +129,7 @@ Dam.OS RCM Runs In a Container So That The User does not Mess With Their Interna
 - Improve Dam.OS Based on your Guy's feedback
 
 # Box64 and Wine Use Case
-![alt text](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/GL_SHOWCASE.jpg)
+![WINE_BOX64](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/GL_SHOWCASE.jpg)
 
 Replace winecfg with the Directory and Application name,
 Example: gl box86 wine '/home/LinuxForLife82/Downloads/Undertale/Undertale.exe'
