@@ -142,7 +142,7 @@ box64 wine64 winebuild
 to setup Wine to be Able to use it.
 
 # Termux-X11
-Dam.OS Relies on Termux-X11 because it is Faster and takes less Processing Power than a VNC Server which Takes more Power and is Slower. And you are able to Download [Termux-X11 Here.](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/termux)
+Dam.OS Relies on Termux-X11 because it is Faster and takes less Processing Power than a VNC Server which Takes more Power and is Slower. And you are able to Download [Termux-X11 Here.](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/termux/Termux-X11_ARM64.apk)
 And [Termux_118.0 Here.](https://f-droid.org/en/packages/com.termux/)
 You need to Allow Installing apk's from an Unknown Source
 
