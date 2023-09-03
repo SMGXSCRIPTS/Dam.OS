@@ -23,7 +23,20 @@ B="$(printf '\033[1;34m')"
 
 function VERIFY_USER_USE (){
 clear
-if [ -f '/data/data/com.termux/files/home/.damos/user-passwd' ]; then echo ${R}"Password Detected!"; VERIFY_IDENITY; else VERIFY_INSTALL; fi
+DF_CHECKER=$(df -h | grep /storage/emulated | awk '{print $4}')
+STORAGE_AMOUNT=${DF_CHECKER}
+case $STORAGE_AMOUNT in
+    *M ) DAMOS_STORAGE_PASS=1;;
+    *G ) STORAGE_SYSTEM;;
+esac
+
+if [ -f '/data/data/com.termux/files/home/.damos/user-passwd' ]; then echo ${R}"Password Detected!"; sleep 0.4; VERIFY_IDENITY; else VERIFY_INSTALL; fi
+}
+
+function STORAGE_SYSTEM (){
+DF_CHECKER_ALT=$(df -h | grep /storage/emulated | awk '{print 4}' | cut -d "G" -f 1)
+STORAGE_AMOUNT2=${DF_CHECKER_ALT}
+if [ ${STORAGE_AMOUNT2} -ge 7 ]; then DAMOS_STORAGE_PASS=0 ; else DAMOS_STORAGE_PASS=1 ; fi
 }
 
 function VERIFY_IDENITY (){
@@ -57,15 +70,18 @@ function VERIFY_INSTALL (){
 clear
 OVERRIDE_DAMOS_RCM=${OVERRIDE_DAMOS_RCM=:-0}
 BANNER_VF
-echo
+case $DAMOS_STORAGE_PASS in
+    1 ) echo; echo ${R}"WARNING! ${Y}It Is Advised To Have Atleast 7GB Of Memory"; echo;;
+    0 ) echo;;
+esac
 echo ${R}"Any Dam.OS Installation And Its Files Will Be Erased!"
 read -p ${Y}"Do You Wish To Install The Dam.OS Software? [Y/N]: "${W} yn
 
 case $yn in
-    [yY] ) echo ${G}"Proceeding With Installation..." ; sleep 3 ; INSTALL_PICKER;;
-    [nN] ) echo ${R}"Exitting System..." ; sleep 2.6 ; clear; exit;;
+    [yY] ) echo ${G}"Proceeding With Installation..."; sleep 3; INSTALL_PICKER;;
+    [nN] ) echo ${R}"Exitting System..."; sleep 2.6; clear; exit;;
     RCM ) RCM_CHECK;;
-    * ) echo ${Y}"INVALID RESPONSE"${W} ; sleep 1 ; echo "Exitting System..." ; sleep 2 ; clear;;
+    * ) echo ${Y}"INVALID RESPONSE"${W}; sleep 1; echo "Exitting System..."; sleep 2; clear;;
 esac
 PWD_RECORD=$(pwd)
 cat > /data/data/com.termux/files/home/.damos-record.tmp
@@ -90,6 +106,7 @@ echo ${C}"LXQT [${W}4${C}] ${Y}- Semi-Light -- Not Recommended - Slightly Broken
 echo ${C}"MATE [${W}5${C}] ${Y}- Medium"
 echo ${C}"GNOME [${R}N/A${C}] ${R}- Very Heavy --Not Recommended"
 echo ${C}"No GUI, Only CLI [${W}6${C}] ${G}- Very Light"
+echo ${G}You Have 
 read -p ${C}"Pick A GUI Desktop [${G}#1-6${C}]: "${W} damos_gui_install_choice
 case $damos_gui_install_choice in
     1 ) GUI_CHOICE=KDE ; INSTALL_MAIN;;
@@ -103,9 +120,8 @@ esac
 }
 
 function GL_LAUNCH_SCRIPT (){
-cat > '/data/data/com.termux/files/usr/bin/damos'
-
-echo '#!/data/data/com.termux/files/usr/bin/bash
+cat <<-EOF> '/data/data/com.termux/files/usr/bin/damos'
+#!/data/data/com.termux/files/usr/bin/bash
 
 # Dam.OS Launcher Script
 
@@ -155,11 +171,9 @@ echo
 
 gl
 pulseaudio --start --exit-idle-time=-1
-ISOLATE_SYSTEM=${ISOLATE_SYSTEM=:-0}
 pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1
 export DISPLAY=:69
 termux-x11 :69 &
-
 case $1 in
     --help ) DAMOS_HELP;;
     -h ) DAMOS_HELP;;
@@ -169,9 +183,9 @@ case $1 in
     --standalone ) DAMOS-STANDALONE=--isolated;;
     * ) DAMOS-STANDALONE="--no-sysvipc --shared-tmp";;
 esac
-
 clear
-proot-distro login damos ${DAMOS_STANDALONE} --fix-low-ports' >> /data/data/com.termux/files/usr/bin/damos
+proot-distro login damos ${DAMOS_STANDALONE} --fix-low-ports
+EOF
 
 chmod +rx '/data/data/com.termux/files/usr/bin/damos'
 echo 'alias gl="MESA_NO_ERROR=1 MESA_GL_VERSION_OVERRIDE=4.3COMPAT MESA_GLES_VERSION_OVERRIDE=3.2 virgl_test_server_android &"' >> /data/data/com.termux/files/home/.bashrc
@@ -386,7 +400,7 @@ esac
 }
 
 function RCM_VF (){
-read -p ${Y}"Are You Sure You Want To Proceed [Y/N]: " rcm_yn
+read -p ${Y}"Are You Sure You Want To Proceed [Y/N]: "${W} rcm_yn
 
 case $rcm_yn in
     [yY] ) echo ${G}"Proceeding..." ; sleep 3 ; RCM_TOOLS;;
@@ -415,8 +429,15 @@ function DAMOS_RCM_CHECK_FILE (){
 OVERRIDE_DAMOS_RCM_FILE_CHECK=${OVERRIDE_DAMOS_RCM_FILE_CHECK=:-0}
 if [ -f /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/damos/etc/.damos-release ]; then OVERRIDE_DAMOS_RCM_FILE_CHECK=1 ; fi
 case $OVERRIDE_DAMOS_RCM_FILE_CHECK in
-    1 ) RCM_FILES;;
+    1 ) DAMOS_SU_CHECK;;
     * ) clear; BANNER_RCM; echo; echo ${R}"ERROR! ${Y}The Dam.OS System Is Not Installed!"; sleep 2.4; echo ${B}"Reseting..."; sleep 1; VERIFY_INSTALL;;
+esac
+}
+
+function DAMOS_SU_CHECK (){
+case $EUID in
+    0 ) clear; echo ${R}"ERROR! ${Y}Cannot Run Super User In Dam.OS RCM";;
+    * ) RCM_FILES;;
 esac
 }
 
@@ -490,7 +511,7 @@ if [ ! -f /data/data/com.termux/files/usr/bin/damos-rcm ]; then DAMOS_RCM_COMMAN
 
 case $DAMOS_RCM_COMMAND_CHECK in
     1 ) echo ${R}"Warning! ${Y}A Dam.OS RCM Command Already Exists!"; VERIFY_RCM_RESET;;
-    * ) WRITE_COMMAND_DAMOS_RCM;;
+    0 ) WRITE_COMMAND_DAMOS_RCM;;
 esac
 }
 
@@ -522,6 +543,13 @@ Y="$(printf '\033[1;33m')"
 W="$(printf '\033[1;37m')"
 C="$(printf '\033[1;36m')"
 B="$(printf '\033[1;34m')"
+
+function DAMOS_SU_CHECK (){
+case $EUID in
+    0 ) clear; echo ${R}"ERROR! ${Y}Cannot Run Super User In Dam.OS RCM";;
+    * ) RCM_FILES;;
+esac
+}
 
 function RCM_FILES (){
 trap " " SIGTSTP SIGINT SIGTERM
@@ -605,7 +633,7 @@ printf ${R}"####################################################################
 printf ${R}"_________________________/RECOVERY-MODE\____________/Damian-Wuorio\_\n"${W}
 }
 
-RCM_FILES
+DAMOS_SU_CHECK
 EOF
 
 chmod +rwx /data/data/com.termux/files/usr/bin/damos-rcm
@@ -674,9 +702,10 @@ function DAMOS_WINE_SETUP (){
 mkdir /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/damos/usr/lib/damos-system/
 echo 'mkdir /usr/lib/damos-system/wine/
 cd /usr/lib/damos-system/wine
-curl -o WINE_PACKAGE.tar.gz
+curl -o WINE_PACKAGE.tar.gz https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/wine/wine-proton-exp-8.0-amd64.tar.xz
 tar -xvf WINE_PACKAGE.tar.gz
-rm -rf WINE_PACKAGE.tar.gz' >> /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/damos/root/.bash_profile
+rm -rf WINE_PACKAGE.tar.gz
+ln -s /usr/lib/damos-system/wine' >> /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/damos/root/.bash_profile
 }
 #add 1 more
 function OTHER_SCRIPTS (){
