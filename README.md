@@ -104,8 +104,11 @@ Dam.OS RCM Has its Own Command Line!
 
 ![RCM_CLI](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-RCM_CLI.jpg)
 
-Dam.OS RCM Runs In a Container So That The User does not Mess With Their Internal Android System! (P.S This Only Applies to Dam.OS 2.06 BlackDiamond)
-
+Dam.OS RCM Runs In a Container So That The User does not Mess With Their Internal Android System! (P.S This Only Applies to Dam.OS 2.06 BlackDiamond) And only when You Use.
+```
+damos --export RCM_CLI
+```
+Inside of the Dam.OS RCM Command Line.
 # Plans For Dam.OS
 - Currently to get Dam.OS up and Running Smoothly on Bad Hardware
 
