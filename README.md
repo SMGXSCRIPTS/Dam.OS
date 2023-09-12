@@ -159,7 +159,7 @@ Or Use,
 ```
 damos-wine --reset
 ```
-In Dam.OS
+In Dam.OS for an Automated Install Process.
 
 # Termux-X11
 Dam.OS Relies on Termux-X11 because it is Faster and takes less Processing Power than a VNC Server which Takes more Power and is Slower. And you are able to Download [Termux-X11 Here.](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/termux/Termux-X11_ARM64.apk)
