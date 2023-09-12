@@ -143,7 +143,7 @@ Or
 ```
 zink box86 wine '/home/LinuxForLife82/Downloads/Undertale/Undertale.exe'
 ```
-It Depends on Your Config For either 'gl' Or 'zink' Which can be Changed at Any Time With,
+It Depends on Your Config For either 'gl' or 'zink' Which can be Changed at Any Time With,
 ```
 damos --config=zink
 damos --config=gl
