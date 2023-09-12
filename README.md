@@ -139,11 +139,27 @@ Replace winecfg with the Directory and Application name,
 ```
 gl box86 wine '/home/LinuxForLife82/Downloads/Undertale/Undertale.exe'
 ```
+Or
+```
+zink box86 wine '/home/LinuxForLife82/Downloads/Undertale/Undertale.exe'
+```
+It Depends on Your Config For either 'gl' Or 'zink' Which can be Changed at Any Time With,
+```
+damos --config=zink
+damos --config=gl
+```
+In Termux.
+
 only put winecfg if its Dam.OS's First time Setup to change the 'Windows 7' to 'Windows 10' in order to Max out your Compatability. Before you Do the winecfg setup Run:
 ```
 box64 wine64 winebuild
 ```
 to setup Wine to be Able to use it.
+Or Use,
+```
+damos-wine --reset
+```
+In Dam.OS
 
 # Termux-X11
 Dam.OS Relies on Termux-X11 because it is Faster and takes less Processing Power than a VNC Server which Takes more Power and is Slower. And you are able to Download [Termux-X11 Here.](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/termux/Termux-X11_ARM64.apk)
@@ -151,7 +167,7 @@ And [Termux_118.0 Here.](f-droid.com/repo/com.termux_118.apk)
 You need to Allow Installing apk's from an Unknown Source
 
 # Down Sides to Termux
-Because Dam.OS is Emulated with Proot. It cannot use Applications that Rely upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d and for Some Reason the Package sox Does not Work So use "play-audio" which is Preinstalled Instead.
+Because Dam.OS is Emulated with Proot. It cannot use Applications that Rely upon init.d or systemd and systemctl Commands do not work. You Require Special Software's to Emulate systemd and init.d and for Some Reason the Package sox Does not Work So use "play-audio" Which is Preinstalled Instead.
 
 # Misc
 For those of you who are wondering
