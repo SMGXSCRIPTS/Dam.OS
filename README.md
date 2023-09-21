@@ -2,7 +2,7 @@
 
 A Service Package for Arch Linux
 
-![DAMOS_LOGO](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V2_256x256.png)
+![DAMOS_LOGO](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V2_512x512.png)
 
 # Purpose
 Dam.OS is meant to help normal users to understand the Linux CLI A.K.A the Terminal Emulator or the actual Terminal. Another purpose of Dam.OS is to use Box64 and Wine natively on ARM SBC's (Single Board Computer) or on a Phone with the Termux Application.
