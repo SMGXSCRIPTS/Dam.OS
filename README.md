@@ -2,7 +2,7 @@
 
 A Service Package for Arch Linux
 
-![DAMOS_LOGO](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V4.png)
+![DAMOS_LOGO](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V3_512x512.png)
 
 # Purpose
 Dam.OS is meant to help normal users to understand the Linux CLI A.K.A the Terminal Emulator or the actual Terminal. Another purpose of Dam.OS is to use Box64 and Wine natively on ARM SBC's (Single Board Computer) or on a Phone with the Termux Application.
@@ -42,12 +42,12 @@ CLi:
 ![DAMOS_CLI](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-CLI_ONLY.jpg)
 
 # Install/Setup
-Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute
+Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute:
 ```
 wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR-DIS_TERMUX.sh; bash DAM.OS-INSTALL_PR-DIS_TERMUX.sh
 ```
 
-For the Proot-Distro Version -- Recommended
+For the Proot-Distro Version -- Recommended:
 ```
 wget https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/install/DAM.OS-INSTALL_PR_TERMUX.sh; bash DAM.OS-INSTALL_NO-PR-DIS_TERMUX.sh
 ```
@@ -184,7 +184,7 @@ And it is based off of my name "Damian Wuorio"
 
 - Dam.OS Update 1.22 Was Called "Shovel"
 
-- Did you know That your Smarter than a Computer Thinking wise. Because The average Human has 92 Billion brain cells while an average Computer has 7.2 Billion Micro Transisters, Although you won't beat a Computer Knowledge wise.
+- Did you know That your Smarter than a Computer Thinking wise. Because The average Human has 92 Billion brain cells while an average Computer has 7.2 Billion Micro Transisters, Although you won't beat a Computer Knowledge wise. It has a very good Memory
 
 # Release Date
 The Dam.OS ISO file for SBC's is Planned to be Released in 3/4/2025
