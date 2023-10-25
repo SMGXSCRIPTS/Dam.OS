@@ -1,8 +1,7 @@
 ---
 title: Building Pkg's
-layout: template
 theme: minima
-filename: Building_Pkg's.md
+filename: building_pkgs.md
 --- 
 
 # Test Page
