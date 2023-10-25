@@ -10,7 +10,7 @@ Hello, and welcome to this Tutorial, Today we will be teaching you how Build Pac
 
 # Making The Base File Structure
 
-<img="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/PKG_FOLDER.jpg" width="510" height="455">
+![PKG_BASE_FOLDER](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/random/PKG_FOLDER.jpg)
 
 [WARNING! WHAT YOU NAME YOUR FOLDER WILL BE YOUR PROGRAMS EXECUTABLE NAME IN THE TERMINAL]
 
