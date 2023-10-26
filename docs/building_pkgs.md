@@ -23,5 +23,8 @@ This file contains your credits for the  package, storing your name, phone, emai
 etc.
 
 - EXECUTE.dmf:
-This file stores the Launch Command's used to Execute your program whether it will be C++, C#, C, Node.js, Java, JavaScript, Python, Bash Script, Tcl, GO, HTML, php, SQL, Lua, Rust, R, Kotlin, JavaFX, FSharp, Bun, Crystal, etc. And even loading Drivers.
+This file stores the Launch Command's used to Execute your program whether it will be C++, C+, C#, C, Node.js, Java, JavaScript, Python, Bash Script, Tcl, GO, HTML, php, SQL, Lua, Rust, R, Kotlin, JavaFX, FSharp, Bun, Crystal, etc. And even loading Drivers.
 [Keep in mind EXECUTE.dmf can only use GNU/Linux basic or installed commands. You cannot use a Programming Languages commands]
+
+- REQUIREMENTS.txt:
+This file tells the computer what packages are needed to run your program. If you dont need any packages just put none. Example: [PACMAN: NONE]
