@@ -14,7 +14,7 @@ Hello, and welcome to this Tutorial, Today we will be teaching you how Build Pac
 
 [WARNING! WHAT YOU NAME YOUR FOLDER WILL BE YOUR PROGRAMS EXECUTABLE NAME IN THE TERMINAL]
 
-Make a folder and make two files named "REQUIREMENTS.txt" and "EXECUTE.dmf".
+Make a folder and make two files named "REQUIREMENTS.txt" and "EXECUTE.dmf", and you dont need to create folders inside of this i just do it for more organization.
 
 These files are Required, and "CREDITS.txt" is optional, but what are these files purpose? Well,
 
