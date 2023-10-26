@@ -164,7 +164,7 @@ In Dam.OS for an Automated Install Process.
 
 # Termux-X11
 Dam.OS Relies on Termux-X11 because it is Faster and takes less Processing Power than a VNC Server which Takes more Power and is Slower. And you are able to Download [Termux-X11 Here.](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/termux/Termux-X11_ARM64.apk)
-And [Termux_118.0 Here.](https://f-droid.com/repo/com.termux_118.apk)
+And [Termux_118.0 Here.](https://f-droid.org/repo/com.termux_118.apk)
 You need to Allow Installing apk's from an Unknown Source
 
 # Down Sides to Termux
