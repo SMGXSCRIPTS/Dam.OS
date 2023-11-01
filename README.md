@@ -37,6 +37,9 @@ Xfce 4:
 MATE:
 ![DAMOS_MATE](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-MATE.jpg)
 
+Cinnamon:
+![DAMOS_CINNAMON](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-CINNAMON.jpg)
+
 CLi:
 
 ![DAMOS_CLI](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-CLI_ONLY.jpg)
