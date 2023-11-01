@@ -44,6 +44,8 @@ CLi:
 
 ![DAMOS_CLI](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-CLI_ONLY.jpg)
 
+(P.S. The Cinnamon GUI is Currently Experimental and may not Work Properly in Dam.OS)
+
 # Install/Setup
 Dam.OS is currently only avaliable for the Termux Application On Android Devices. To Install Dam.OS on Termux, Execute:
 ```
