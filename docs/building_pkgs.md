@@ -28,3 +28,5 @@ This file stores the Launch Command's used to Execute your program whether it wi
 
 - REQUIREMENTS.txt:
 This file tells the computer what packages are needed to run your program. If you dont need any packages just put none. Example: [PACMAN: NONE]
+         [DAMOS_PKG: NONE]
+         [PIP: NONE]
