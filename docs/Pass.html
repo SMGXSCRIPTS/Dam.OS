@@ -10,10 +10,32 @@ body {
     function VERIFY_PASSWD(){
       var INPUTED_USERNAME = document.getElementById('uname').value;
       var INPUTED_PASSWORD = document.getElementById('psw').value;
+      if(INPUTED_USERNAME == "gay_goofy_looped_uped_butt_hole"){
+        var USERNAME_PASS = "TRUE";
+      }
+      else{
+        var USERNAME_PASS = "FALSE";
+      if(INPUTED_PASSWORD == "yes"){
+        var PASSWORD_PASS = "TRUE";
+      }
+      else{
+        var PASSWORD_PASS = "FALSE";
+      }
+      if(USERNAME_PASS == "TRUE"){
+        if(PASSWORD_PASS == "TRUE"){
+          alert("yay")
+        }
+        else{
+          alert("Incorrect Password")
+        }
+      }
+      else{
+        alert("Incorrect Username")
+      }
     }
   </script>
 </style>
-<form action="Passed.html" method="post">
+<form action=VERIFY_PASSWD method="post">
   <div class="imgcontainer">
     <img src="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V2_64x64.png" alt="DAMOS_AVATAR" class="avatar">
   </div>
