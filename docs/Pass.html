@@ -36,7 +36,7 @@ body {
     }
   </script>
 </style>
-<form action="" method="post" onclick="VERIFY_PASSWD()">
+<form method="post" onclick="VERIFY_PASSWD()">
   <div class="imgcontainer">
     <img src="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V2_64x64.png" alt="DAMOS_AVATAR" class="avatar">
   </div>
@@ -48,7 +48,7 @@ body {
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <button type="submit">Login</button>
+    <button type="submit">Login<onclick="VERIFY_PASSWD()"></button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
