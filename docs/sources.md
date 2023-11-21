@@ -6,4 +6,4 @@ filename: sources.md
 
 # Test file
 
-Discord
+![DISCORD_ICO](null) [Discord](https://discord.com/invite/YAnjn6gNJ5)
