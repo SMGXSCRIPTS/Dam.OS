@@ -1,6 +1,6 @@
 theme: minima
 title: Dam.OS - Launching x86_64 Applications on ARM
-site_icon
+site_icon: "https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V2_32x32.png"
 url: https://damos.dev/
 author: Damian Wuorio
 avatar: https://github.com/SMGXSCRIPTS/damos-pkg-repo/raw/main/lib/DAM.OS-LOGO_V3.png
