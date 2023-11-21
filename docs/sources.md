@@ -6,4 +6,4 @@ filename: sources.md
 
 # Test file
 
-![DISCORD_ICO](null) [Discord](https://discord.com/invite/YAnjn6gNJ5)
+![DISCORD_ICO](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib) [Discord](https://discord.com/invite/YAnjn6gNJ5) - Under Development
