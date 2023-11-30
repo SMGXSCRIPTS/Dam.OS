@@ -1,6 +1,6 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.112.1/build/three.module.js';
-import Stats from 'https://cdn.jsdelivr.net/npm/three@0.112.1/examples/jsm/libs/stats.module.js';
-import {WEBGL} from 'https://cdn.jsdelivr.net/npm/three@0.112.1/examples/jsm/WebGL.js';
+import * as THREE from '/Dam.OS/test/src/three.module.js';
+import Stats from '/Dam.OS/test/src/stats.module.js';
+import {WEBGL} from '/Dam.OS/test/src/WebGL.js';
 
 
 export const graphics = (function() {
