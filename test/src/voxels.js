@@ -1,10 +1,10 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.112.1/build/three.module.js';
-import 'https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/simplex-noise.js';
-import {BufferGeometryUtils} from 'https://cdn.jsdelivr.net/npm/three@0.112.1/examples/jsm/utils/BufferGeometryUtils.js';
-import {math} from './math.js';
-import {utils} from './utils.js';
-import {voxels_shader} from './voxels_shader.js';
-import {voxels_tool} from './voxels_tool.js';
+import * as THREE from '/Dam.OS/test/src/three.module.js';
+import '/Dam.OS/test/src/simplex-noise.js';
+import {BufferGeometryUtils} from '/Dam.OS/test/src/BufferGeometryUtils.js';
+import {math} from '/Dam.OS/test/src/math.js';
+import {utils} from '/Dam.OS/test/src/utils.js';
+import {voxels_shader} from '/Dam.OS/test/src/voxels_shader.js';
+import {voxels_tool} from '/Dam.OS/test/src/voxels_tool.js';
 
 
 export const voxels = (function() {
