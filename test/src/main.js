@@ -1,12 +1,12 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.112.1/build/three.module.js';
-import 'https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/simplex-noise.js';
-import {clouds} from './clouds.js';
-import {controls} from './controls.js';
-import {game} from './game.js';
-import {graphics} from './graphics.js';
-import {math} from './math.js';
-import {textures} from './textures.js';
-import {voxels} from './voxels.js';
+import * as THREE from '/Dam.OS/test/src/three.module.js';
+import '/Dam.OS/test/src/simplex-noise.js';
+import {clouds} from '/Dam.OS/test/src/clouds.js';
+import {controls} from '/Dam.OS/test/src/controls.js';
+import {game} from '/Dam.OS/test/src/game.js';
+import {graphics} from '/Dam.OS/test/src/graphics.js';
+import {math} from '/Dam.OS/test/src/math.js';
+import {textures} from '/Dam.OS/test/src/textures.js';
+import {voxels} from '/Dam.OS/test/src/voxels.js';
 
 
 let _APP = null;
