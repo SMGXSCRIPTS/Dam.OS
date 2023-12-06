@@ -1,5 +1,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_APPLE.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V4_32x32.png">
+<link rel="shortcut icon" type="image/png" sizes="32x32" href="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V4_32x32.png">
 
 # Dam.OS
 
