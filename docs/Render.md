@@ -24,14 +24,6 @@ filename: Render.md
     <script src="script.js"></script>
 </body>
 </html>
-
-   #interactive-element {
-       padding: 10px;
-       background-color: lightblue;
-       cursor: pointer;
-   }
-
-
    const interactiveElement = document.getElementById('interactive-element');
 
    interactiveElement.addEventListener('click', function() {
