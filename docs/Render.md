@@ -21,11 +21,6 @@ filename: Render.md
         }
     </style>
     <div id="interactive-element">Click me!</div>
-    <script src="script.js"></script>
+    <script src="Render.js"></script>
 </body>
 </html>
-   const interactiveElement = document.getElementById('interactive-element');
-
-   interactiveElement.addEventListener('click', function() {
-       alert('You clicked the interactive element!');
-   });
