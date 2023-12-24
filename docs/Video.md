@@ -8,7 +8,8 @@ filename: Video.md
 <style>
   video {
     height: auto !important;
-    width: 85% !important;
+    width: 90% !important;
+    text-align: center;
   }
 </style>
 <video controls>
