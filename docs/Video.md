@@ -9,7 +9,7 @@ filename: Video.md
   video {
     height: auto !important;
     width: 90% !important;
-    text-align: center;
+    text-align: center !important;
   }
 </style>
 <video controls>
