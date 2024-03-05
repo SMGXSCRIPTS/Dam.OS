@@ -15,7 +15,7 @@ filename: WebGL_RENDER.md
         </style>
     </head>
     <body>
-        <script src="three.min.js"></script>
-        <script src="render.js"></script>
+        <script src="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/docs/three.min.js"></script>
+        <script src="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/docs/render.js"></script>
     </body>
 </html>
