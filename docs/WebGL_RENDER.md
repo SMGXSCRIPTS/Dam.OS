@@ -17,5 +17,6 @@ filename: WebGL_RENDER.md
     <body>
         <script src="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/docs/three.min.js"></script>
         <script src="https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/docs/render.js"></script>
+        <canvas width="640" height="320" style="width: 640, height:320"></canvas>
     </body>
 </html>
