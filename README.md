@@ -5,6 +5,7 @@
 
 A Service Package for Arch Linux
 
+yes
 ![DAMOS_LOGO](https://github.com/SMGXSCRIPTS/Dam.OS/raw/main/lib/DAM.OS-LOGO_V3_512x512.png)
 
 # Purpose
